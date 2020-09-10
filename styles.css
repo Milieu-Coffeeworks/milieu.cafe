@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to bottom right, #561866 5%, white 20%, white 70%, #561866 85%, #00003d);
+  background-image: linear-gradient(to bottom right, #00003d 5%, white 20%, white 70%, #00003d 85%, #561866);
   font-family: 'Segoe UI';
   color: #2F2F2F;
   margin: 0;
