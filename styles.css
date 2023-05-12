@@ -3,14 +3,33 @@ html {
 }
 
 body {
-  /*background-image: linear-gradient(to bottom right, #000070 5%, #d6d600 20%, white 70%, #000070 85%, #561866);*/
-  background-color: #0d0d0d;
+  background: radial-gradient(circle, rgba(0,40,66,1) 0%, rgba(71, 0, 128, 1) 100%);
+  /*background-color: #0d0d0d;*/
   font-family: 'Segoe UI';
-  color: #F2F2F2;
-  margin: 0;
-  padding: 0;
+  color: #E8DEB4;
+  margin: 1%, 10%, 1%, 10%;
+  padding: 1em;
+}
+
+h1 {
+  color: #E8DEB4;
+}
+
+h2, h3 {
+  color: #C7A572;
 }
 
 h1, h2, h3 {
   text-align: center;
+}
+
+#LogoImgContainer{
+  max-width: 40%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+#LogoImg {
+  max-width: 100%;
 }
