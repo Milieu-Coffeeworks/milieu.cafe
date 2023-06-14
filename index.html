@@ -1,17 +1,127 @@
+<!-- Adapted from https://coffeeshop.netlify.app/ by Kris Keillor for Bengt Freepons -->
+<!-- Milieu Coffeworks is copyright 2023 Bengt Freepons -->
+
+<!-- 
+  v1.0.0 KGK 2023-6-14 
+  v1.0.1 Mobile compatibility fix, set max-width to 100%                KGK 2023-6-14
+  v1.0.3 Directory fix, match case in file name (x2)                    KGK 2023-6-14
+  v1.0.4 Mobile compatibility fix, set 100% height to max-height        KGK 2023-6-14
+-->
+
 <!DOCTYPE html>
-<html>
-  <link rel="stylesheet" href="styles.css">
-    <head>
-        <title>Milieu Coffeeworks</title>
-    </head>
-    
-    <body>
-        <div id="LogoImgContainer">   
-          <img id="LogoImg" src="static/images/Milieu_CoffeeWorks_Logo-Final-Primary_Metalic_Gold.png" />
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Milieu Coffeeworks</title>
+    <meta name="description" content="Gourmet espresso and ice cream at Howard Amon waterfront trail.">
+
+    <link rel="stylesheet" href="Milieu_Coffeeworks_files/css/main.css">
+    <link rel="stylesheet" href="Milieu_Coffeeworks_files/css/all.css"> <!--integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">-->
+    <link href="Milieu_Coffeeworks_files/css/css.css" rel="stylesheet">
+  </head>
+
+  <body cz-shortcut-listen="true">
+<!-- Header toolbar -->
+    <section id="header">
+      <div>
+        <nav class="navbar">
+          <div class="navbar-container">
+            <span class="navbar-title">Milieu</span>
+            <ul class="navbar-menu">
+              <li class="menu-item"><a href="#about">about</a></li>
+              <li class="menu-item"><a href="#menu">menu</a></li>
+              <li class="menu-item"><a href="#contact">contact</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="header-message">
+          <h1 class="message-title">
+            <span>•</span>
+            <span class="message-title-span">Milieu Coffeeworks</span>
+            <span>•</span>
+          </h1>
+          <p class="message-body-paragraph">
+            Open Friday-Sunday, 7:30 to 5-ish.
+          </p>
+        </div>  
+      </div>
+    </section>
+
+<!-- "About" section/anchor -->
+    <section id="about">
+      <div class="about-container">
+        <img src="Milieu_Coffeeworks_files/temp/images/about-image.jpg" alt="About image" class="about-image"/>
+        <div class="about-content">
+          <div class="about-parent">
+            <div class="about-card">
+              <div class="message-container">
+                <img src="Milieu_Coffeeworks_files/temp/images/about-message.png" alt="Coffee drink">
+                  <p class="about-message">Gourmet espresso and ice cream at Howard Amon waterfront trail.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <h2>Open Friday-Sunday, 7:30 to 5-ish</h2>
-	<div>
-		<p style="text-align: center;">Gourmet espresso and ice cream at Howard Amon waterfront trail.</p>
-	</div>
-    </body>
+      </div>
+    </section>
+
+<!-- "Menu" section/anchor -->
+    <section id="menu" style="padding-top:2em;">
+      <!-- Temp menu -->
+      <div class="menu-container-simple" style="height: 100vh; text-align: center;"> <!-- Todo: Fix CSS selectors for this style -->
+        <a href="Milieu_Coffeeworks_files/temp/menu/soft_menu.pdf"><img class="menu-img-simple" src="Milieu_Coffeeworks_files/temp/menu/menu.png" alt="Menu" style="max-height:100%; max-width: 100%;"/> <!-- Todo: Fix CSS selectors for this style --> </a>
+      </div>
+      <!-- Three-panel menu (under construction) -->
+      <div class="menu-container-panel">
+        <span class="menu-item">
+          <img src="Milieu_Coffeeworks_files/temp/images/menu-item1.jpg" alt="">
+          <h1 class="menu-item-title">Expresso</h1>
+        </span>
+        <span class="menu-item">
+          <img src="Milieu_Coffeeworks_files/temp/images/menu-item2.jpg" alt="">
+          <h1 class="menu-item-title">Latte</h1>
+        </span>
+        <span class="menu-item">
+          <img src="Milieu_Coffeeworks_files/temp/images/menu-item3.jpg" alt="">
+          <h1 class="menu-item-title">Capuccino</h1>
+        </span>
+      </div>
+    </section>
+
+<!-- "Contact" section/anchor -->
+    <section id="contact">
+      <div>
+        <h1 class="contact-title">Contact</h1>
+        <div class="container">
+          <div class="form-container" id="contact-form-email"> <!-- Email Form Under Construction! -->
+            <form class="contact-form" action="">
+              <div class="contact-field">
+                <label for="">Name</label>
+                <input type="text"> 
+              </div>
+              <div class="contact-field">
+                <label for="">Email</label>
+                <input type="text"> 
+              </div>
+              <div class="contact-field">
+                <label for="">Message</label>
+                <textarea></textarea> 
+              </div>
+              <button class="submit-button">Send!</button>
+            </form>
+          </div>
+
+          <div class="contact-info">
+            <p>10 Newton Street<br/>Richland WA 99352</p>
+            <p>(+1) 509 506-2097</p>
+            <p>bengt@milieu.cafe</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
