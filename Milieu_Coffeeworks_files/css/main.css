@@ -6,7 +6,7 @@ body {
   background: #f8f3e6;
   width: 100%;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: Trueno, "Raleway", sans-serif;
   scroll-behavior: smooth; }
 
 @media (max-width: 600px) {
@@ -82,7 +82,7 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      font-family: "Oswald", sans-serif;
+      font-family: Ligerid, serif;
       font-weight: bold;
       font-size: 40px;
       text-transform: uppercase; }
@@ -101,7 +101,7 @@ body {
   .navbar .navbar-title {
     color: #f8f3e6;
     font-size: 150%;
-    font-family: "Pacifico", cursive;
+    font-family: Ligerid, serif;
     padding: 5px; }
   .navbar .navbar-container {
     display: flex;
@@ -181,7 +181,7 @@ body {
     text-align: center; }
 
 #menu .menu-title {
-  font-family: "Oswald", sans-serif;
+  font-family: Trueno, "Raleway", sans-serif;
   text-align: center;
   font-size: 40px; }
 #menu .menu-container-panel {
@@ -215,7 +215,7 @@ body {
   background-attachment: fixed;
   padding-bottom: 50px; }
   #contact .contact-title {
-    font-family: "Oswald", sans-serif;
+    font-family: Trueno, "Raleway", sans-serif;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -261,5 +261,15 @@ body {
     transition: 0.3s; }
   #contact .submit-button:hover {
     background: rgba(231, 204, 143, 0.1); }
+
+@font-face {
+  font-family: Trueno;
+  src: url(/Milieu_Coffeeworks_files/static/fonts/TruenoBold-XYE2.otf);
+}
+
+@font-face {
+  font-family: Ligerid;
+  src: url(/Milieu_Coffeeworks_files/static/fonts/LIGERID.TTF);
+}
 
 /*# sourceMappingURL=main.css.map */
