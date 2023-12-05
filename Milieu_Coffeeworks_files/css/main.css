@@ -23,7 +23,7 @@ body {
     padding-top: 2em; }
   /* Simple menu (in use) */
   #menu .menu-container-simple {
-    height: 100vh;
+    /* height: 100vh; Needed for vertical menus, removed for horizontal menu update -KGK 12/05/2023 */
     text-align: center; }
   #menu .menu-img-simple {
     max-height: 100%;
