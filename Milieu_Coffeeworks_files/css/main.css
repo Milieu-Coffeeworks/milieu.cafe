@@ -19,8 +19,7 @@ body {
     min-width: 100%;
     height: auto; }
 
-  #menu {
-    padding-top: 2em; }
+  #menu { }
   /* Simple menu (in use) */
   #menu .menu-container-simple {
     /* height: 100vh; Needed for vertical menus, removed for horizontal menu update -KGK 12/05/2023 */
@@ -84,12 +83,15 @@ body {
       align-items: center;
       font-family: Ligerid, serif;
       font-weight: bold;
-      font-size: 40px;
+      font-size: 48px;
       text-transform: uppercase; }
       #header .header-message .message-title .message {
         padding: 10px; }
     #header .header-message p {
-      font-size: 18px; }
+      font-size: 22px; }
+    #header .message-body-footnote {
+      font-size: 18px !important;
+    }
 
 .navbar {
   background-color: rgba(0, 0, 0, 0);
@@ -181,6 +183,7 @@ body {
     text-align: center; }
 
 #menu .menu-title {
+  padding-top: 2em; 
   font-family: Trueno, "Raleway", sans-serif;
   text-align: center;
   font-size: 40px; }
